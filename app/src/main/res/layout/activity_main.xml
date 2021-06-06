@@ -81,6 +81,17 @@
             android:onClick="registrar"
             android:text="Registro" />
 
+        <Button
+            android:id="@+id/mapa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginEnd="80dp"
+            android:layout_marginRight="80dp"
+            android:onClick="irmapa"
+            android:text="Mapa" />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

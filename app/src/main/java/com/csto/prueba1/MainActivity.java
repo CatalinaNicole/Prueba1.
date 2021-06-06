@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         clave=(EditText)findViewById(R.id.contraseña);
         acceso=(Button) findViewById(R.id.conexion);
         registro=(Button) findViewById(R.id.registro);
-        
+
     }
     public void registrar(View v){
         Intent i=new Intent(getApplicationContext(),Registro.class);
@@ -50,5 +50,10 @@ public class MainActivity extends AppCompatActivity {
         } else {
             Toast.makeText(getApplicationContext(), "DATOS DE AUTENTIFICACION INCORRECTOS VUELVA A INTENTARLO", Toast.LENGTH_LONG).show();
         }
+    }
+
+    public void irmapa(View v){
+        Intent i = new Intent(getApplicationContext(),MainActivity2.class);
+        startActivity(i);
     }
 }
