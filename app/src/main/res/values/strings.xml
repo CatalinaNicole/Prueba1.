@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Prueba1</string>
+    <string name="boton1">Conexion</string>
+    <string name="boton2">Registro</string>
+    <string-array name="Ciudades">
+        <item>---</item>
+        <item>Talca</item>
+        <item>Curico</item>
+        <item>Santiago</item>
+    </string-array>
+</resources>
