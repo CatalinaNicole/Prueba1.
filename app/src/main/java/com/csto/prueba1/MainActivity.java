@@ -56,4 +56,9 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(getApplicationContext(),MainActivity2.class);
         startActivity(i);
     }
+
+    public void irbasedatos(View v){
+        Intent i = new Intent(getApplicationContext(),MainActivity3.class);
+        startActivity(i);
+    }
 }
